@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>subject</title> 
+	<meta charset="UTF-8">
+	<style>
+		*
+		{
+			margin: 0;
+			padding:0;
+			font-family: arial;
+			font-size: 15px
+		}
+
+		#wrap
+		{
+			background:#082e3c;
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+		.fs_24
+		{
+			font-size: 24px
+		}
+
+		/* In #wrap */
+
+
+		.post
+		{
+			width: 622px;
+			height:590px;
+			background-color:#fff; 
+			margin-left: 42px;
+			margin-top: 84px;
+			position: relative;
+		}
+
+		.post img
+		{
+			width: 100%;
+		}
+
+		.post .post_state
+		{
+			height: 169px;
+			width: 505px;
+			/*background: red;*/
+			margin:29px 0px;
+			margin-left: 68px;
+		}
+		.post_state:before
+		{
+			content: "";
+			position: absolute;
+			left: 0px;
+			width: 41px;
+			height: 41px;
+			background-image: url(img/button_blue.jpg);
+		}
+
+
+		.post .post_state h4
+		{
+			padding-top:10px;
+			color: #475055;
+			font-weight: 200;
+		}
+
+		.post .post_state p
+		{
+			margin-top:35px;
+			color:#475055;
+		}
+
+		.post .post_state p a
+		{
+			color:#ea6060;
+			text-decoration: none;
+		}
+
+		.post .result
+		{
+			height: 49px;
+			width: 100%;
+			/*background: red;*/
+			padding-top:9px;
+			text-align: center;
+		}
+
+		.post .result span
+		{
+			display:inline-block;
+			margin-right: 45px;
+			padding-top:4px;
+			position: relative;
+		}
+
+		.post .result span:last-child
+		{
+			margin-right: 0px
+		}
+
+		.post .result .download:before
+		{
+			content: '';
+			position: absolute;
+			width: 18px;
+			height: 15px;
+			background-image:url(img/jen_1.jpg);
+			left: -24px;
+			top:5px;
+		}
+
+		.post .result .glass:before
+		{
+			content: '';
+			position: absolute;
+			width: 23px;
+			height: 14px;
+			background-image: url(img/jen_2.jpg);
+			left: -27px;
+			top: 7px;
+		}
+
+		.post .result .message:before
+		{
+			content: '';
+			position: absolute;
+			width: 16px;
+			height: 16px;
+			background-image: url(img/jen_3.jpg);
+			left: -23px;
+			top: 5px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id = "wrap">
+		<div class = "post">
+			<img src = "img/iphone.jpg">
+			<div class = "post_state">
+				<h4 class = "fs_24">Заголовок статьи</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting...<a href = "#">Читать дальше</a></p>
+			</div>
+			<div class = "result">
+				<span class = "download">569 Поделилось</span>
+				<span class = "glass">3,152 Просмотров</span>
+				<span class = "message">21 Комментриев</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

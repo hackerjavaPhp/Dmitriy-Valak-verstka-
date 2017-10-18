@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX</title>
+	<meta charset="utf-8">
+	<style>
+		*
+		{
+			margin: 0;
+			padding:0;
+			font-family: arial;
+			font-size: 15px;
+			color: #475055
+		}
+
+		#wrap
+		{
+			background:#4d4141;
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+		.left
+		{
+			float: left;
+		}
+
+		.right
+		{
+			float: right;
+		}
+
+		.clear
+		{
+			clear: both
+		}
+
+		.fs_24
+		{
+			font-size: 22px;
+			font-weight: 200px;
+			color:#475055;
+			margin-bottom: 18px
+		}
+
+		/* In Wrap */
+
+		 .post
+		{
+			width: 622px;
+			height: 300px;
+			background: #fff;
+			margin:100px 36px;
+			position: relative;
+		}
+
+		.post:before
+		{
+			content: "";
+			position: absolute;
+			left: 0px;
+			top:31px;
+			height: 41px;
+			width: 41px;
+			background-image:url(img/photo.jpg);
+		}
+
+		.post .text
+		{
+			width: 219px;
+			height: 212px;
+			/*background: red;*/
+			margin-left: 71px;
+			margin-top:47px;
+		}
+
+		.post .text p a
+		{
+			color:#eb6e6e;
+			text-decoration: none;
+			display:inline-block;
+		}
+
+		.cl_gray
+		{
+			color:#a3abaf;
+			margin-bottom: 38px
+		}
+
+	</style>
+</head>
+<body>
+	<div id = "wrap">
+		<div class = "post">
+			<div class = "left text">
+				<h4 class = "fs_24">Еще один большой
+				заголовок, который
+				идет в 3 строки.</h4>
+				<p class = "cl_gray">3 часа назад</p>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...<a href = '#'>Читать дальше</a></p>
+			</div>
+			<img class = "right" src = "img/girl.jpg">
+		</div>
+	</div>
+</body>
+</html>

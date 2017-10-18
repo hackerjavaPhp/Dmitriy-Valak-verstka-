@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ajax</title>
+	<meta charset="utf-8">
+	<style>
+		*
+		{
+			margin: 0;
+			padding:0;
+			font-family: arial;
+			font-size: 16px;
+			color: #475055
+		}
+
+		#wrap
+		{
+			background:#257b94;
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+		.left
+		{
+			float: left;
+		}
+
+		.right
+		{
+			float: right;
+		}
+
+		.clear
+		{
+			clear: both
+		}
+
+		nav
+		{
+			height: 60px;
+			width: 930px;
+			background-color:#fff;
+			margin:20px 50px
+		}
+		/* in #wrap */
+
+		nav ul 
+		{
+			padding-top:20px;
+			width: 60%;
+			float: left;
+		}
+
+		nav ul li 
+		{
+			float: left;
+			margin-left: 46px;
+			list-style-type: none;	
+		}
+
+		nav ul li:first-child
+		{
+			margin-left: 29px;
+		}
+
+		nav .social
+		{
+			/*background: green;*/
+			float: right;
+			width: 300px;
+			height: 60px
+		}
+
+		nav .social .people
+		{
+			width: 64px;
+			height: 60px;
+			/*background: red;*/
+			background: url(img/pe_1.png) no-repeat;
+			display: inline-block;
+			float: right;
+			border-left: 1px solid #dde2e4;
+			background-position:22px center;
+		}
+
+		nav .social .search
+		{
+			width: 64px;
+			height: 60px;
+			background:url(img/Search.png) no-repeat;
+			display: inline-block;
+			float: right;
+			border-right: 1px solid #dde2e4;
+			background-position:30px center;
+		}
+
+
+
+		nav .social .google
+		{
+			width: 34px;
+			height: 60px;
+			/*background: red;*/
+			background: url(img/goo.png) no-repeat;
+			display: inline-block;
+			float: right;
+			/*border-left: 1px solid #dde2e4;*/
+			background-position:10px center;
+			margin-right: 13px
+		}
+
+		nav .social .tw
+		{
+			width: 34px;
+			height: 60px;
+			/*background: red;*/
+			background: url(img/Tw.png) no-repeat;
+			display: inline-block;
+			float: right;
+			/*border-left: 1px solid #dde2e4;*/
+			background-position:10px center;
+		}
+
+		nav .social .fa
+			{
+				width: 34px;
+				height: 60px;
+				/*background: red;*/
+				background: url(img/fa.png) no-repeat;
+				display: inline-block;
+				float: right;
+				/*border-left: 1px solid #dde2e4;*/
+				background-position:10px center;
+				margin-left: 13px
+			}
+
+
+
+	</style>
+</head>
+<body>
+	<div id = "wrap">
+		<nav>
+			<div class = "container">
+				<ul>
+					<li>Главная</li>
+					<li>Магазин</li>
+					<li>Блог</li>
+					<li>Об авторе</li>
+					<li>Контакты</li>
+				</ul>
+				<div class = "social">
+					<a class = "people" href = "#"></a>
+					<a class = "google" href = "#"></a>
+					<a class = "tw" href = "#"></a>
+					<a class = "fa" href = "#"></a>
+					<a class = "search" href = "#"></a>
+				</div>
+			</div>
+		</nav>
+	</div>
+</body>
+</html>

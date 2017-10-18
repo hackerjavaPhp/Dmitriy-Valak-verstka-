@@ -1,0 +1,73 @@
+
+*
+{
+	margin: 0;
+	padding:0
+}
+
+/* options in html */
+
+.container
+{
+	width: 1024px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both
+}
+
+/* cod style */
+
+
+header
+{
+	width: 100%;
+	height: 50px;
+	background: red
+}
+
+section
+{
+	min-height: 500px;
+	background: blue
+}
+
+.tv
+{
+	width: 80%;
+	height: 200px;
+	background: purple;
+	margin: 0 auto;
+	position: relative;
+	top:50px;
+}
+
+article
+{
+	width: 200px;
+	height: 200px;
+	background: red;
+	float: left;
+	margin: 70px;
+	position: relative;
+}
+
+footer
+{
+	width: 100%;
+	height: 100px;
+	background: black
+}

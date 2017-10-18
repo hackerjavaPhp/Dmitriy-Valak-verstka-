@@ -1,0 +1,61 @@
+
+*
+{
+	margin: 0;
+	padding:0
+}
+
+/* options in html */
+
+.container
+{
+	width: 1024px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both
+}
+
+/* cod style */
+
+
+header
+{
+	background-color: #555;
+	height: 200px;
+	width: 100%
+}
+
+nav
+{
+	height: 400px;
+	width: 30%;
+	background: #222
+}
+
+section
+{
+	height: 400px;
+	width: 70%;
+	background: #332fff;
+}
+
+footer
+{
+	width: 100%;
+	height: 100px;
+	background-color:#22334f;
+}
