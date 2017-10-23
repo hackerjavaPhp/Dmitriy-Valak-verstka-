@@ -1,0 +1,105 @@
+//out: ../style.css , compress: true
+
+//variable
+
+
+//color
+
+@blue:#3293d4;
+@green:#2ecc71;
+@red:#d64541;
+@orange:#f9bf3b;
+@blue_dark:#22313f;
+
+//background-img
+
+@bg:url(../img/bg.jpg);
+
+//boreder-color
+
+@border_gray:#4c4848;
+
+//style
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial , sans-serif;
+}
+
+.t_center{text-align: center}
+
+#block
+{
+    max-width: 600px;
+    min-height: 400px;
+    background: @bg;
+    
+    h2
+    {
+        font-size: 40px;
+        color: @blue;
+    }
+}
+
+.circle
+{
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid @border_gray;
+    margin:0 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.blue
+{
+    background:@blue;
+    
+    &:hover
+    {
+        background: darken(@blue , 10%);
+    }
+}
+
+.green
+{
+    background:@green;
+    
+     &:hover
+    {
+        background: darken(@green , 10%);
+    }
+}
+
+.red
+{
+    background:@red;
+    
+     &:hover
+    {
+        background: darken(@red , 10%);
+    }
+}
+
+.orange
+{
+    background:@orange;
+    
+     &:hover
+    {
+        background: darken(@orange , 10%);
+    }
+}
+
+.blue_dark
+{
+    background:@blue_dark;
+    
+     &:hover
+    {
+        background: darken(@blue_dark , 10%);
+    }
+}
