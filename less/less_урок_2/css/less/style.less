@@ -1,0 +1,75 @@
+//out: ../style.css , compress: true
+
+//import file less
+
+@import (reference) "Mixins";
+
+
+//variable
+
+
+//color
+
+@blue:#3293d4;
+@green:#2ecc71;
+@red:#d64541;
+@orange:#f9bf3b;
+@blue_dark:#22313f;
+@black:black;
+//background-img
+
+@bg:"../img/";
+
+//boreder-color
+
+@border_gray:#4c4848;
+
+
+//style
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial , sans-serif;
+}
+
+body{background: #333;}
+
+.t_center{text-align: center}
+.color_black{color:@black}
+
+#block
+{
+    max-width: 600px;
+    min-height: 400px;
+    background-image: url("@{bg}bg.jpg");
+    margin: 0 auto;
+    margin-top:100px;
+    
+    h2
+    {
+        font-size: 40px;
+        color: @blue;
+    }
+}
+
+.circle
+{
+    .lol;
+    border-radius: 50%;
+    border: 3px solid @border_gray;
+    margin:0 10px;
+    box-shadow: 0 0 29px rgba(0, 0, 0, 0.5) inset;
+    transition: all .3s;
+}
+
+.blue{.bg_col(@blue , 180px);}
+
+.green{.bg_col(@green);}
+
+.red{.bg_col(@red , 180px);}
+
+.orange{.bg_col(@orange , 140px);}
+
+.blue_dark{.bg_col(@blue_dark , 120px);}
